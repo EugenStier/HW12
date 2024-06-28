@@ -1,0 +1,100 @@
+  203  git commit -m "Add README.md and update .gitignore"
+  204  pwd
+  205  pwd
+  206  git clone https://github.com/EugenStier/test_repo1.git
+  207  cd test_repo1/
+  208  git checkout -b my-feature
+  209  ls -la
+  210  git branch
+  211  git status
+  212  git add README.md
+  213  git status
+  214  git commit -m "Add current date to README.md"
+  215  git branch
+  216  git push origin my-feature 
+  217  git remote -v
+  218  git remote add origin https://github.com/EugenStier/test_repo1.git
+  219  cd zasada
+  220  ls -la
+  221  cd ..
+  222  ls -la
+  223  cd ..
+  224  ls -la
+  225  git clone https://github.com/EugenStier/Barmaley.git
+  226  pwd
+  227  cd Barmaley/
+  228  ls -la
+  229  git check out -b feature
+  230  git checkout -b feature
+  231  echo "# Barmaley" > README.md
+  232  echo "*.exe" >> .gitignore
+  233  git add README.md .gitignore
+  234  git commit -m "Add README.md and update .gitignore"
+  235  git checkout main
+  236  git merge feature
+  237  history > history.txt
+  238  git add history.txt 
+  239  git commit -m history.txt 
+  240  git add history.txt 
+  241  git commit -m "Add history.txt"
+  242  git push origin history.txt
+  243  git push origin Barmaley
+  244  git push origin main
+  245  cd ~
+  246  git clone https://github.com/EugenStier/learning_git.git
+  247  cd learning_git
+  248  mkdir 150424-wdm
+  249  ls
+  250  cd 150424-wdm/
+  251  touch eugen
+  252  git add eugen
+  253  git status
+  254  git commit -m "add file EUGEN"
+  255  git push origin
+  256  git push origin main
+  257  git clone git@github.com:EugenStier/Barmaley.git
+  258  ls -al
+  259  cd linux
+  260  ls -al
+  261  mkdir eugen
+  262  cd eugen
+  263  git clone git@github.com:EugenStier/Barmaley.git 
+  264  git checkout -b feature
+  265  cd ..
+  266  mkdir HW12
+  267  cd HW12
+  268  git init
+  269  echo README.md
+  270  git add README
+  271  git add README.md
+  272  ls -al
+  273  echo "текст" >> README.md
+  274  ls -al
+  275  gid add .
+  276  git add .
+  277  git commit -m "комментарий"
+  278  git branch -M main
+  279  git remote add origin https://github.com/EugenStier/HW12.git
+  280  git push -u origin main
+  281  git remote -v
+  282  git push
+  283  git push --set-upstream origin main
+  284  git push --set-upstream origin main
+  285  git status
+  286  nano .gitignor
+  287  rf -rm .gitignor
+  288  nano .gitignore
+  289  checkout -b feature
+  290  git checkout -b feature
+  291  git add .
+  292  git commit -m "добавление гитигнор"
+  293  git push 
+  294  git push --set-upstream origin main
+  295  git status
+  296  git push origin feature
+  297  git commit --amend -m "добавлен новый коммит аменд"
+  298  git push origin feature --force
+  299  git checkout main
+  300  git merge feature
+  301  git push origin main
+  302  history | tail -n 100 > history.txt
